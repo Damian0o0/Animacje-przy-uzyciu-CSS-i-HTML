@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+	div.pog {
+		height: 150x;
+		width: 250px;
+		background-color: blue;
+		margin: 200px;
+		transition:transform 2s;
+		transform-origin: top right;
+	}
+	div.pog:hover {
+	transform: rotate(360deg)
+	}
+	div.bk{
+	height: 100px;
+	width: 200px;
+	background-color: yellow;
+	margin: 300px;
+	transition:transform 2s;
+	}
+	div.bk:hover {
+	transform: skewY(-60deg)
+	}
+	.button {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	outline: none;
+	color: #7CFC00;
+	background-color: #32CD32;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 9px #999;
+	}
+	.button:hover {background-color: #3e8e41}
+	.button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}
+	div.jd{
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+	margin: 50px;
+	transition:transform 2s;
+	}
+	div.jd:hover {
+	transform: scale(2,3);
+	}
+	div.kx{
+	height: 100px;
+	width: 200px;
+	background-color: red;
+	margin: 300px;
+	transition:transform 3s;
+	}
+	div.kx:hover {
+	transform:translate(100px,100px)
+	}
+	</style>
+</head>
+<body>
+	<h1>Przycisk:</h1>
+	<button class="button">Kliknij</button>
+	<h1>Rotate</h1>
+	<div class="pog">Pog</div>
+	<h1>Skew:</h1>
+	<div class="bk">Champ</div>
+	<h1>Scale:</h1>
+	<div class="jd">Essa</div>
+	<h1>Translate:</h1>
+	<div class="kx">Imo</div>
+</body>
+</html>
